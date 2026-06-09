@@ -21,7 +21,6 @@ C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\bin\Release\WpfApp1.exe.co
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\bin\Release\WpfApp1.exe
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\bin\Release\WpfApp1.pdb
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.csproj.AssemblyReference.cache
-C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.exe.config
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\Exit.g.cs
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\MainWindow.g.cs
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\Window1.g.cs
@@ -37,3 +36,5 @@ C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.csproj
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.exe
 C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\WpfApp1.pdb
+C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\links.g.cs
+C:\Users\IB-24-2\Desktop\ravshan-main\WpfApp1\WpfApp1\obj\Release\links.baml

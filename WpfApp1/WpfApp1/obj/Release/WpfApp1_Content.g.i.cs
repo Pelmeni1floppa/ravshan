@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("boosty.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("donationalerts-logo-vector.svg-.png")]
 
 

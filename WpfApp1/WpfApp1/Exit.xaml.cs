@@ -26,13 +26,13 @@ namespace WpfApp1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Ну и пошёл нахуй");
-            Application.Current.Shutdown(); // Полное завершение приложения
+            MessageBox.Show("ok");
+            Application.Current.Shutdown(); 
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Ну и пошёл нахуй");
+            MessageBox.Show("ok");
             Application.Current.Shutdown(); // Полное завершение приложения
         }
     }

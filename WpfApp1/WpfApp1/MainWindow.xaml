@@ -17,5 +17,6 @@
         </Button>
         <Label x:Name="ЦУАУП" Content="СИМУЛЯТОР РАВШАНА" HorizontalAlignment="Left" Height="35" Margin="26,41,0,0" VerticalAlignment="Top" Width="231" Background="Transparent" Foreground="Red" FontWeight="Bold" FontSize="18"/>
         <Button x:Name="Exit" Content="ПУКНУТЬ" HorizontalAlignment="Left" Height="35" Margin="179,339,0,0" VerticalAlignment="Top" Width="62" Cursor="Help" Click="Exit_Click"/>
+        <Button x:Name="donat" HorizontalAlignment="Left" Height="58" Margin="710,339,0,0" VerticalAlignment="Top" Width="57" Click="donat_Click" Background="White" Content="+" FontSize="24"/>
     </Grid>
 </Window>

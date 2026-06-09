@@ -52,13 +52,13 @@ namespace WpfApp1
 
             if (health <= 0)
             {
-                MessageBox.Show("Ты присмерте, олух!");
+                MessageBox.Show("Ты в присмерте!");
                 return;
             }
 
-            cottonGrams += 50;   // +10 грамм
-            energy -= 5;          // -5 энергии
-            health -= 1;          // -1 здоровье
+            cottonGrams += 50;   // + грамм
+            energy -= 5;          // - энергии
+            health -= 1;          // - здоровье
 
             if (energy < 0) energy = 0;
             if (health < 0) health = 0;
@@ -71,7 +71,7 @@ namespace WpfApp1
         {
             if (cottonGrams < 1000)
             {
-                MessageBox.Show("Нужно минимум 1 кг хлопка!");
+                MessageBox.Show("Нужно мин. 1 кг хлопка!");
                 return;
             }
 
@@ -94,7 +94,7 @@ namespace WpfApp1
             if (health > 100) health = 100;
 
             UpdateUI();
-            MessageBox.Show("Отдохнул! Иди работай, сука");
+            MessageBox.Show("Отдохнул! Иди работай!");
         }
 
         private void magazin_Click(object sender, RoutedEventArgs e)
@@ -106,7 +106,7 @@ namespace WpfApp1
         {
             MessageBoxResult result = MessageBox.Show(
                 "Ты чё хочешь сдаться?",
-                "Слабак ебаный",
+                "Рили?",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
 

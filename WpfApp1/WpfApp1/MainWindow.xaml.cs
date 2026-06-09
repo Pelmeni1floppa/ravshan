@@ -29,13 +29,21 @@ namespace WpfApp1
         {
             Window1 secondWindow = new Window1();
             secondWindow.Show();
-            this.Close(); // Закрывает главное окно
+            this.Close();
         }
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
             Exit pukWindow = new Exit();
-            pukWindow.Owner = this; // чтобы окно было поверх главного
-            pukWindow.ShowDialog(); // ShowDialog - блокирует главное окно, пока не закроют
+            pukWindow.Owner = this;
+            pukWindow.ShowDialog();
+        }
+
+
+        private void donat_Click(object sender, RoutedEventArgs e)
+        {
+            links linksWindow = new links();
+            linksWindow.Owner = this;
+            linksWindow.ShowDialog();
         }
     }
 }

@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1.links"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="links" Height="450" Width="400" Background="#FF292525">
+    <Grid>
+        <Label Content="Создатели&#xD;&#xA;" Margin="160,10,160,0" VerticalAlignment="Top" Height="29" FontWeight="Bold" Background="Transparent" Foreground="#FFF50000"/>
+        <Label Content="KXMXIS - идея создания" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="Red" Width="200"/>
+        <Label Content="KXMXIS - разработка" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="Red" Width="200"/>
+        <Label Content="KXMXIS - абсурд" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="Red" Width="200"/>
+        <Button x:Name="donat" HorizontalAlignment="Left" Height="47" Margin="10,367,0,0" VerticalAlignment="Top" Width="52" Click="donat_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/DonationAlerts-Logo-Vector.svg-.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="telegram" HorizontalAlignment="Left" Height="47" Margin="84,367,0,0" VerticalAlignment="Top" Width="52" Click="telegram_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/telegram.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="boosty" HorizontalAlignment="Left" Height="47" Margin="338,367,0,0" VerticalAlignment="Top" Width="52" Click="boosty_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/boosty.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Ссылки&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Background="Transparent" Foreground="Red" Width="56" Height="35"/>
+
+    </Grid>
+</Window>

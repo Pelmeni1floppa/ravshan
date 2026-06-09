@@ -58,10 +58,17 @@
     <Compile Include="Exit.xaml.cs">
       <DependentUpon>Exit.xaml</DependentUpon>
     </Compile>
+    <Compile Include="links.xaml.cs">
+      <DependentUpon>links.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Page Include="Exit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="links.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -112,13 +119,19 @@
     <Resource Include="Exit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ravik1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="boll-104101239.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="3F3F3F4 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DonationAlerts-Logo-Vector.svg-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="telegram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="boosty.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
